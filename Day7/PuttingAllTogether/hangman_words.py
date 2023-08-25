@@ -1,0 +1,19 @@
+words_list = [
+    'apple',
+    'arrogant',
+    'beautiful',
+    'brinjal',
+    'carrot',
+    'cashew',
+    'caramel',
+    'dramatic',
+    'excellent',
+    'fair',
+    'groundnut',
+    'horrible',
+    'injuries',
+    'jessica',
+    'kangroo',
+    'lick',
+    'money'
+]
