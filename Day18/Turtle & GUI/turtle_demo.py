@@ -1,19 +1,8 @@
-from turtle import *
+from turtle import Turtle, Screen
 
-my_turtle = Turtle()
-my_screen = Screen()
-
-#my_turtle.forward(200)
-#my_turtle.right(90)
-#my_turtle.forward(200)
-#my_turtle.right(90)
-#my_turtle.forward(200)
-#my_turtle.right(90)
-#my_turtle.forward(200)
-# or
-for _ in range(4):
-    my_turtle.forward(200)
-    my_turtle.right(90)
-
-
-my_screen.exitonclick()
+timy = Turtle()
+timy.shape("turtle")
+timy.color("red")
+timy.forward(100)
+screen = Screen()
+screen.exitonclick()
