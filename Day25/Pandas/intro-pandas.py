@@ -19,4 +19,4 @@ import pandas
 data =  pandas.read_csv("weather_data.csv")
 print(type(data) # Pandas DataFrame
 print(data)
-print(data["temp"])
+print(type(data["temp"])) #Pandas Series
