@@ -17,5 +17,6 @@ with open('weather_data.csv') as data_file:
 import pandas
 
 data =  pandas.read_csv("weather_data.csv")
+print(type(data) # Pandas DataFrame
 print(data)
-print(data["temp"]
+print(data["temp"])
