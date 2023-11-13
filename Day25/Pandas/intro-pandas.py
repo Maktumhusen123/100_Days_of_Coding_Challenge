@@ -25,5 +25,8 @@
 import pandas
 
 data = pandas.read_csv("weather-data.csv")
-print(data)  # pandas DataFrame
-print(data["Temperature"])  # pandas Series
+# print(data)  # pandas DataFrame
+# print(data["Temperature"])  # pandas Series
+temp_list = data["Temperature"].to_list()
+avgTemp = sum(temp_list)/len(temp_list)
+print(f"Average of Temperatures is {avgTemp}")
