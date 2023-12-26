@@ -5,3 +5,7 @@
 #green-text{
   color: green;
 }
+
+p[draggable]{
+  color: red;
+}
