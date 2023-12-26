@@ -1,3 +1,9 @@
 h1{
   font-family: 'Libre Baskerville';
+  color: white;
+  background-color: black;
+  text-align: center;
+}
+img{
+  border: 5px solid white;
 }
