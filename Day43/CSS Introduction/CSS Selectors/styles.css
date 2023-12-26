@@ -1,11 +1,19 @@
+/* Class Selector */
 .red-text{
   color: red;
 }
 
+/* id Selector */
 #green-text{
   color: green;
 }
 
+/* Attribute Selector */
 p[draggable]{
   color: red;
+}
+
+/* Universal Selector */
+*{
+  
 }
